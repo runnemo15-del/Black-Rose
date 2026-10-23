@@ -1,0 +1,64 @@
+/* 1. Стилі для всієї сторінки */
+body {
+    background-color: #1a0f12; /* Темний, майже чорний фон з бордовим відтінком */
+    font-family: Arial, sans-serif;
+    color: #f5f5f5; /* Світлий колір тексту для хорошого контрасту */
+    margin: 20px;
+}
+
+/* 2. Головний заголовок сторінки */
+#mainh {
+    color: #e63946; /* Яскравий червоно-бордовий колір для назви троянди */
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Красива тінь під текстом */
+}
+
+/* 3. Наші три інформаційні блоки div */
+.block {
+    background-color: #2c1a1f; /* Темно-бордовий фон для самих карток */
+    border: 1px solid #4a2831; /* Акуратна темна рамка */
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 12px; /* Більш закруглені куточки */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* М'яка тінь навколо блоків */
+}
+
+/* 4. Заголовки всередині блоків (h2) */
+.block h2 {
+    color: #ffb4a2; /* Ніжний рожево-кремовий колір для підзаголовків */
+    margin-top: 0;
+    border-bottom: 1px solid #4a2831; /* Лінія під заголовком */
+    padding-bottom: 8px;
+}
+
+/* 5. Стилізація картинок */
+img {
+    display: block;
+    margin: 15px auto;
+    border: 3px solid #4a2831; /* Рамка навколо картинки */
+    border-radius: 8px;
+}
+
+/* 6. Оформлення меню навігації (nav) */
+nav {
+    text-align: center;
+    background-color: #2c1a1f;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+/* Посилання в меню */
+nav a {
+    color: #ffb4a2;
+    text-decoration: none; /* Прибираємо підкреслення у посилань */
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Ефект при наведенні курсору на посилання */
+nav a:hover {
+    color: #e63946;
+}
+
